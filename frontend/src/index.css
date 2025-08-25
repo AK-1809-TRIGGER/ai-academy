@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* Custom scrollbar for filters */
+aside::-webkit-scrollbar {
+  width: 6px;
+}
+aside::-webkit-scrollbar-thumb {
+  background-color: #94a3b8;
+  border-radius: 4px;
+}
+aside::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* my learning */
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

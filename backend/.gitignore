@@ -1,0 +1,13 @@
+# Ignore Python environment folders
+venv/
+.env
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+
+# Django static files
+staticfiles/
+
+# Database (optional if you don't want to commit it)
+db.sqlite3
